@@ -1,0 +1,57 @@
+body {
+    background-color: #f0d8ee;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 20px;
+    width: max-content;
+    margin: auto;
+}
+
+.box {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.item {
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+/* Дополнительные классы */
+.column {
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
